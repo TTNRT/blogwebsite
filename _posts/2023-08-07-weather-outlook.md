@@ -17,7 +17,7 @@ Let's take a look at our current Day 1 outlook
 
 ## Day 1
 
-![](/images/archives/day1outlookaug.png)
+<img src="/images/archives/day1outlookaug.png" width="100%">
 
 > SRC: Storm Prediction Center
 

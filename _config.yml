@@ -2,9 +2,25 @@ title: TTNRT Blog
 email: support@ttnrtsite.me
 description: The offical TTNRT blog site
 baseurl:
-url: ''
+url: 'https://blog.ttnrtsite.me'
 github_username: TTNRT
-theme: minima
+theme: jekyll-bootstrap-theme
 plugins:
   - jekyll-feed
 regenerate: true
+git_repo: blog
+
+# Build settings
+markdown: kramdown
+# Theme configuration
+bootstrap:
+  # Theme date format
+  # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+  date_format: "%b %-d, %Y"
+
+  # If you want to link only specific pages in your header, uncomment
+  # this and add the path to the page *files* in order as they should show up
+  #header_pages:
+  # - about.md
+
+  # generate social links in footer
