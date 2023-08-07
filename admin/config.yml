@@ -1,0 +1,10 @@
+development:
+  backend:
+    name: netlify-api
+    url: https://blog.ttnrtsite.me
+
+production:
+  backend:
+    name: github-api
+    repo: TTNRT/blog # Path to your GitHub repository
+    branch: main # Branch to update (master by default)
