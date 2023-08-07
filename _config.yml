@@ -4,9 +4,10 @@ description: The offical TTNRT blog site
 baseurl:
 url: 'https://blog.ttnrtsite.me'
 github_username: TTNRT
-theme: jekyll-bootstrap-theme
+remote_theme: jonaharagon/jekyll-bootstrap-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 regenerate: true
 git_repo: blog
 
