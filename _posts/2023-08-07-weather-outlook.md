@@ -1,36 +1,39 @@
 ---
 layout: post
-title: 	"Weather outlook"
-date: 	2023-08-07 12:28:59 -0400
+author: TTNRT
+title: Weather outlook
+date: 2023-08-07T17:33:02.629Z
+thumbnail: /images/day1outlookaug.png
+category: weather
+summary: Blog update
 ---
-
 We here at TTNRT, in coordination with the National Weather Service and NOAA, are doing outlooks for our viewing area.
 
-These outlooks are made to help our employees and community with safty and priority from sereve or non sereve weather in the Detroit Metro area.
+These outlooks are made to help our employees and community with safety and priority from severe or non severe weather in the Detroit Metro area.
 
-Weather conditons are very importent to keep note of, thoughout your daily life, so that you can be prepared in case of sereve weather strikes.
-
-
+Weather conditions are very important to keep note of, throughout your daily life, so that you can be prepared in case of severe weather strikes.
 
 Let's take a look at our current Day 1 outlook
 
 ## Day 1
+
 ![](/images/archives/day1outlookaug.png)
 
 > SRC: Storm Prediction Center
 
-Looking at the risks, the Detroit area is under for some thunderstorms for today. As they may become sereve, they are standard type storms, with no threat at all!
+Looking at the risks, the Detroit area is under for some thunderstorms for today. As they may become severe, they are standard type storms, with no threat at all!
 
-However, general thunderstorms have threats of purducing heavy rain fall, thunder and lightning, strong winds, and small hail (pea size).
+However, general thunderstorms have threats of producing heavy rain fall, thunder and lightning, strong winds, and small hail (pea size).
 
-Looking around the east cost, there appers to be a Moderate risk for most of that area too!
+Looking around the east cost, there appears to be a Moderate risk for most of that area too!
 
-That risk, in general, does have capabilities to produce a torrnado and large hail!
+That risk, in general, does have capabilities to produce a tornado and large hail!
 
 This area is for parts of the Mid-Atlantic region, and the sides of New England.
 
 ## Conditions/Outlooks
-Here is a snipit from NWS Detroit:
+
+Here is a snippet from NWS Detroit:
 
 ```
 Hazardous Weather Outlook
