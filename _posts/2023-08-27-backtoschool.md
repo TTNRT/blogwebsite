@@ -2,7 +2,7 @@
 layout: post
 author: TTNRT
 title: Back To School 2023-2024
-date: 2023-08-027T16:58:00.629Z
+date: 2023-08-27T17:08:00.629Z
 category: school
 summary: Backtoschool
 ---
