@@ -16,4 +16,7 @@ We at TTNRT, want to remember those families that lost a loved one during this t
 
 A﻿s Presiden Bush once said:
 
-> This is a day when all Americans from every walk of life unite in our resolve for justice and peace. America has stood down enemies > before, and we will do so this time. None of us will ever forget this day. Yet, we go forward to defend freedom and all that is good > and just in our world.
+> This is a day when all Americans from every walk of life unite in our resolve for justice and peace.
+> America has stood down enemies before, and we will do so this time.
+> None of us will ever forget this day.
+> Yet, we go forward to defend freedom and all that is good and just in our world.
