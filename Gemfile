@@ -11,7 +11,7 @@ gem "jekyll", "~> 4.3.2"
 #gem "minima", "~> 2.5.1"
 gem "jekyll-remote-theme"
 gem 'jekyll-paginate'
-gem 'jekyll-theme-bootstrap5'
+gem 'jekyll-bootstrap-theme'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

@@ -3,13 +3,13 @@ email: support@ttnrtsite.me
 description: The offical TTNRT blog site
 #theme: minima
 #remote_theme: jekyll/minima
-theme: jekyll-theme-bootstrap5
-theme: 
+theme: jekyll-bootstrap-theme
 url: 'https://blog.ttnrtsite.me'
 github_username: TTNRT
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
 git_repo: blog
 
 # Build settings
@@ -17,8 +17,5 @@ markdown: kramdown
 
 #minima:
 #  skin: dark
-
-plugins:
-  - jekyll-paginate
 
 paginate: 3
