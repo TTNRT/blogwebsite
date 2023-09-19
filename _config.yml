@@ -15,7 +15,7 @@ git_repo: blog
 # Build settings
 markdown: kramdown
 
-#minima:
-#  skin: dark
+minima:
+  skin: auto
 
 paginate: 3
