@@ -12,4 +12,4 @@ git_repo: blog
 markdown: kramdown
 
 minima:
-  skin: auto
+  skin: solarized
