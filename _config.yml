@@ -2,8 +2,6 @@ title: TTNRT Blog
 email: support@ttnrtsite.me
 description: The offical TTNRT blog site
 theme: minima
-#remote_theme: jekyll/minima
-#theme: jekyll-bootstrap-theme
 url: 'https://blog.ttnrtsite.me'
 github_username: TTNRT
 plugins:
