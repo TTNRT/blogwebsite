@@ -9,7 +9,6 @@ github_username: TTNRT
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - jekyll-paginate
 git_repo: blog
 
 # Build settings
@@ -17,5 +16,3 @@ markdown: kramdown
 
 minima:
   skin: auto
-
-paginate: 3
