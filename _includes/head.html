@@ -3,13 +3,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" type="image/x-icon" href="https://cdn.ttnrtsite.me/images/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.ttnrtsite.me/styles/fontawesome/css/all.min.css" />
+  <link href="https://cdn.ttnrtsite.me/styles/halfmoon/halfmoon.min.css" rel="stylesheet">
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
 
-  {%- include custom-head.html -%}
-  
+  <script>
+    // Set theme to the user's preferred color scheme
+    function updateTheme() {
+        const colorMode = window.matchMedia("(prefers-color-scheme: dark)").matches ?
+          "dark" :
+          "light";
+        document.querySelector("html").setAttribute("data-bs-theme", colorMode);
+    }
+    
+    // Set theme on load
+    updateTheme()
+    
+    // Update theme when the preferred scheme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
+    </script>
 </head>

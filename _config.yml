@@ -1,16 +1,11 @@
 title: TTNRT Blog
 email: support@ttnrtsite.me
 description: The offical TTNRT blog site
-theme: minima
 url: 'https://blog.ttnrtsite.me'
 github_username: TTNRT
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 git_repo: blog
 
 # Build settings
 markdown: kramdown
-
-minima:
-  skin: auto

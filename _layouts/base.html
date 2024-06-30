@@ -3,18 +3,18 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="d-flex flex-column min-vh-100">
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main class="container-fluid" aria-label="Content">
+      <div class="mb-3" style="padding: 1em;">
         {{ content }}
       </div>
     </main>
 
     {%- include footer.html -%}
-
+    <script src="https://cdn.ttnrtsite.me/styles/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 
 </html>
