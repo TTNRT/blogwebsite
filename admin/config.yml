@@ -11,26 +11,34 @@ media_folder: "images/"
 site_url: https://blog.ttnrtsite.me
 logo_url: https://cdn.ttnrtsite.me/images/logo.png
 
-collections:  
- - name: "blog"    
-   label: "Blog"    
-   folder: "_posts/"    
-   create: true # Allow users to create new documents  
-   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-   editor:      
-    preview: false    
-   fields: # The fields for each document, usually in front matter         
-     - { label: "Layout", 
-         name: "layout", 
-         widget: "hidden", 
-         default: "post" }      
-     - { label: "Title", name: "title", widget: "string" }      
-     - { label: "Publish Date", name: "date", widget: "datetime" }      
-     - { label: "Author",          
-         name: "author",          
-         widget: "relation",          
-         collection: "authors",          
-         displayFields: [display_name],          
-         searchFields: [display_name],          
-         valueField: "name", }      
-      - { label: "Body", name: "body", widget: "markdown" }
+collections:
+  - name: blog
+    label: Blog
+    folder: _posts/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: post
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Author
+        name: author
+        widget: relation
+        collection: authors
+        displayFields:
+          - display_name
+        searchFields:
+          - display_name
+        valueField: name
+      - label: Body
+        name: body
+        widget: markdown
