@@ -11,8 +11,6 @@ media_folder: "images/"
 site_url: https://blog.ttnrtsite.me
 logo_url: https://cdn.ttnrtsite.me/images/logo.png
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
-
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
